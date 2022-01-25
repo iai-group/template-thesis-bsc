@@ -196,7 +196,7 @@
 % \end{minipage}
 \end{table}
       
-      %\includegraphics[scale=0.5]{./logo_uds}{\large\textbf{\univname}}\includegraphics[scale=0.5]{./logo_mpi}\par
+
       %\vfill
       \bigskip
       \bigskip
