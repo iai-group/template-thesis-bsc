@@ -36,6 +36,9 @@
 \renewcommand{\algorithmicensure}{\textbf{Output:}}
 \hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
 
+\newcommand{\todo}[1]{\textcolor{red}{#1}}
+\newcommand{\instructions}[1]{\textcolor{blue}{#1}}
+
 \listfiles
 
 %\usepackage[draft]{hyperref}
@@ -94,11 +97,11 @@
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 
-\input{chapters/introduction}
-\input{chapters/background}
-\input{chapters/approach}
-\input{chapters/results}
-\input{chapters/conclusions}
+\input{chapters/01-introduction}
+\input{chapters/02-background}
+\input{chapters/03-approach}
+\input{chapters/04-results}
+\input{chapters/05-conclusions}
 
 %% ----------------------------------------------------------------
 % Now begin the Appendices, including them as separate files
